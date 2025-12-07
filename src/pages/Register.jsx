@@ -35,7 +35,8 @@ const Register = () => {
     <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center relative"
       style={{
-        backgroundImage: "url('/railway1.bmp')", // Add your railway image in public/assets
+        backgroundImage: "url('/railway1.bmp')",
+        backgroundPosition:"bottom center" // Add your railway image in public/assets
       }}
     >
      
