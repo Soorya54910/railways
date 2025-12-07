@@ -33,7 +33,8 @@ const Login = ({ setIsAuthenticated }) => {
      <div
       className="min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
-        backgroundImage: "url('/railway1.bmp')" // ✅ Your background image
+        backgroundImage: "url('/railway1.bmp')" ,
+        backgroundPosition:"bottom center"// ✅ Your background image
       }}
     >
      <div className="absolute inset-0 bg-black opacity-70">

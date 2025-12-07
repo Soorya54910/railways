@@ -4,7 +4,7 @@ import API from "./services/api";
 import "./App.css";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
