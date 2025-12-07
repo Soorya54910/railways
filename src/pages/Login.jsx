@@ -22,7 +22,7 @@ const Login = ({ setIsAuthenticated }) => {
 
       localStorage.setItem("token", res.data.accessToken);
       setIsAuthenticated(true);
-      window.location.href = `https://railway-streamlit.onrender.com/?token=${res.data.accessToken}`;
+      window.location.href = `https://railway-repository-r.onrender.com/?token=${res.data.accessToken}`;
     } catch (err) {
       console.error(err);
       alert("Invalid email or password");
@@ -41,7 +41,7 @@ const Login = ({ setIsAuthenticated }) => {
      <div className="relative bg-black/50 backdrop-blur-md p-8 rounded-xl shadow-xl w-full max-w-md mx-4">
      
          <h2 className="text-3xl font-bold text-center mb-6 text-white">
-          Login
+          Railway Maintenance System Login
         </h2>
 
         <input
