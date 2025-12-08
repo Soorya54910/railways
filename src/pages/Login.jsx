@@ -22,7 +22,10 @@ const Login = ({ setIsAuthenticated }) => {
 
       localStorage.setItem("token", res.data.accessToken);
       setIsAuthenticated(true);
-      window.location.href = `https://railway-repository-r.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`;
+      window.location.replace(
+     `https://railway-repository-r.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`
+     );
+
     } catch (err) {
       console.error(err);
       alert("Invalid email or password");
