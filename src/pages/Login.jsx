@@ -23,7 +23,7 @@ const Login = ({ setIsAuthenticated }) => {
       localStorage.setItem("token", res.data.accessToken);
       setIsAuthenticated(true);
       window.location.replace(
-     `https://indian-railways-bpnk.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`
+     `https://mt-15.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`
      );
 
     } catch (err) {
