@@ -23,7 +23,7 @@ const Login = ({ setIsAuthenticated }) => {
       localStorage.setItem("token", res.data.accessToken);
       setIsAuthenticated(true);
       window.location.replace(
-     `https://mt-15.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`
+     `https://rakhi-d7az.onrender.com/?token=${encodeURIComponent(res.data.accessToken)}`
      );
 
     } catch (err) {
